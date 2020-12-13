@@ -1,0 +1,13 @@
+html {
+    background: url("https://images.unsplash.com/photo-1528800546314-a085ed1931e0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDJ8fGJhbGFuY2V8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") no-repeat center fixed;
+    background-size: cover;
+}
+
+body {
+    background: rgba(255, 255, 255, 0.8);
+    width: 65%;
+    padding: 50px 100px;
+    margin: 65px auto;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
