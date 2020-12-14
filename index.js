@@ -16,3 +16,18 @@ function buildMadLib() {
 }
 
 
+document.getElementById("resetButton").addEventListener("click", reset);
+
+function reset() {
+    document.getElementById("place1").value = "";
+    document.getElementById("noun1").value = "";
+    document.getElementById("verb1").value = "";
+    document.getElementById("noun2").value = "";
+    document.getElementById("pluralNoun").value = "";
+    document.getElementById("place2").value = "";
+    document.getElementById("verb2").value = "";
+    // document.getElementById("story").style.visibility = "hidden";
+}
+
+
+

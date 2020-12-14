@@ -10,27 +10,39 @@
 </head>
 
 <body>
-    <h1>Mad Lib</h1>
-    <h3>The Best Day Ever</h3>
+    <section id="header">
+        <h1>Mad Lib</h1>
+        <h3>The Best Day Ever</h3>
+    </section>
+
     <hr>
 
-    <h2>Mad Lib Instructions:</h2>
-    <p>Fill in all of the input boxes, then click the <em>"Mad Lib"</em> button.</p>
+    <section id="main">
+        <h2>Mad Lib Instructions:</h2>
+        <p>Fill in all of the input boxes, then click the <em>"Mad Lib"</em> button.</p>
 
-    <ul>
-        <li>Place: <input id="place1" type="text" autofocus></li>
-        <li>Noun: <input id="noun1" type="text"></li>
-        <li>Verb: <input id="verb1" type="text"></li>
-        <li>Noun: <input id="noun2" type="text"></li>
-        <li>Plural Noun: <input id="pluralNoun" type="text"></li>
-        <li>Place: <input id="place2" type="text"></li>
-        <li>Verb: <input id="verb2" type="text"></li>
-    </ul>
-    <button id="button">Mad Lib</button>
+        <ul>
+            <li>Place: <input class="usertext" id="place1" type="text" autofocus></li>
+            <li>Noun: <input class="usertext" id="noun1" type="text"></li>
+            <li>Verb: <input class="usertext" id="verb1" type="text"></li>
+            <li>Noun: <input class="usertext" id="noun2" type="text"></li>
+            <li>Plural Noun: <input class="usertext" id="pluralNoun" type="text"></li>
+            <li>Place: <input class="usertext" id="place2" type="text"></li>
+            <li>Verb: <input class="usertext" id="verb2" type="text"></li>
+        </ul>
+        <button id="button">Mad Lib</button>
+        <button id="resetButton">Reset</button>
+    </section>
+
     <hr>
 
-    <h2>Mad Lib Story</h2>
-    <p id="story"></p>
+    <section>
+        <h2>Mad Lib Story</h2>
+        <div id="storycontainer">
+            <p id="story"></p>
+        </div>
+    </section>
+
     <!-- Load JavaScript -->
     <script src="index.js"></script>
 </body>
