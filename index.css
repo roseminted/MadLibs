@@ -22,6 +22,10 @@ h1, h2, h3 {
     color: #3d2266;
 }
 
+hr {
+    border-bottom: black;
+}
+
 li {
     margin-bottom: 10px;
 }

@@ -1,4 +1,3 @@
-
 document.getElementById("button").addEventListener("click", buildMadLib);
 
 function buildMadLib() {
@@ -26,7 +25,6 @@ function reset() {
     document.getElementById("pluralNoun").value = "";
     document.getElementById("place2").value = "";
     document.getElementById("verb2").value = "";
-    // document.getElementById("story").style.visibility = "hidden";
 }
 
 
